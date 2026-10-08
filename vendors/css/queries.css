@@ -1,0 +1,565 @@
+
+
+
+
+
+/* =========================================================
+   LARGE DESKTOP - 1200px and above
+   ========================================================= */
+
+@media only screen and (min-width: 1200px) {
+
+    .hero-text-box {
+        width: 1140px;
+    }
+
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+}
+
+
+/* =========================================================
+   TABLETS / SMALL LAPTOPS - 768px to 1199px
+   ========================================================= */
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    /* Hero */
+
+    .hero-text-box {
+        width: 90%;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, 50%);
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+
+    /* Navigation */
+
+    .logo {
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .main-nav {
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+
+    /* Sections */
+
+    section {
+        padding: 60px 0;
+    }
+
+    h2 {
+        font-size: 160%;
+    }
+
+
+    /* Row */
+
+    .row {
+        width: 90%;
+        max-width: 100%;
+        margin: 30px auto 0;
+        gap: 15px;
+    }
+
+
+    /* Features */
+
+    .col-span-1-of-4 {
+        width: 23%;
+    }
+
+    .box p {
+        font-size: 85%;
+    }
+
+
+    /* Meals */
+
+    .meals-showcase li {
+        width: 25%;
+    }
+
+
+    /* How it works */
+
+    .steps-box:first-child {
+        margin-left: 0;
+        padding-right: 20px;
+    }
+
+    .steps-box:last-child {
+        padding-left: 20px;
+        margin-right: 0;
+    }
+
+    .app-screen {
+        width: 250px;
+    }
+
+
+    /* Cities */
+
+    .col-span-1-of-2 {
+        width: 48%;
+    }
+
+
+    /* Testimonials */
+
+    .col-span-1-of-3 {
+        width: 31%;
+        margin-right: 3%;
+    }
+
+    .col-span-1-of-3:last-child {
+        margin-right: 0;
+    }
+
+
+    /* Plans */
+
+    .plan-box {
+        width: 100%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+
+    /* Contact form */
+
+    .contact-form {
+        width: 80%;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL TABLETS - 481px to 767px
+   ========================================================= */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        font-size: 16px;
+    }
+
+
+    /* Sections */
+
+    section {
+        padding: 50px 0;
+    }
+
+    h2 {
+        font-size: 150%;
+        padding: 0 15px;
+    }
+
+
+    /* Hero */
+
+    .hero-text-box {
+        width: 90%;
+        left: 50%;
+        top: 15%;
+        transform: translate(-50%, 50%);
+    }
+
+    h1 {
+        font-size: 180%;
+        line-height: 1.3;
+    }
+
+
+    /* Navigation */
+
+    .logo {
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+
+    /* Row */
+
+    .row {
+        width: 90%;
+        max-width: 100%;
+        margin: 30px auto 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+
+    /* Features */
+
+    .col-span-1-of-4 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .box {
+        padding: 2%;
+    }
+
+
+    /* Meals */
+
+    .meals-showcase li {
+        width: 50%;
+    }
+
+
+    /* How it works */
+
+    .steps-box:first-child {
+        width: 100%;
+        margin-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .steps-box:last-child {
+        width: 100%;
+        padding-left: 0;
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .app-screen {
+        width: 250px;
+    }
+
+    .works-step {
+        margin-bottom: 30px;
+    }
+
+
+    /* Cities */
+
+    .col-span-1-of-2 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+
+    /* Testimonials */
+
+    .col-span-1-of-3 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+
+    /* Plans */
+
+    .col-span-1-of-3 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .plan-box {
+        width: 100%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+
+    /* Contact form */
+
+    .contact-form {
+        width: 90%;
+    }
+
+    .span-1-of-3,
+    .span-2-of-3 {
+        width: 100%;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    .footer-nav,
+    .social-links {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE - 0px to 480px
+   ========================================================= */
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        font-size: 16px;
+    }
+
+
+    /* Sections */
+
+    section {
+        padding: 40px 0;
+    }
+
+    h2 {
+        font-size: 130%;
+        line-height: 1.4;
+        padding: 0 15px;
+    }
+
+    h2::after {
+        margin-top: 20px;
+    }
+
+
+    /* Hero */
+
+    .hero-text-box {
+        width: 90%;
+        left: 50%;
+        top: 15%;
+        transform: translate(-50%, 50%);
+    }
+
+    h1 {
+        font-size: 150%;
+        line-height: 1.4;
+        letter-spacing: 0.5px;
+    }
+
+
+    /* Buttons */
+
+    .btn:link,
+    .btn:visited {
+        padding: 9px 20px;
+        font-size: 90%;
+    }
+
+
+    /* Navigation */
+
+    .logo {
+        height: 60px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+
+    /* Row */
+
+    .row {
+        width: 90%;
+        max-width: 100%;
+        margin: 25px auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+
+    /* Features */
+
+    .col-span-1-of-4 {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .box {
+        padding: 2%;
+    }
+
+    .icon-big {
+        font-size: 280%;
+    }
+
+    .box p {
+        font-size: 90%;
+    }
+
+
+    /* Long copy */
+
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+        line-height: 150%;
+    }
+
+
+    /* Meals */
+
+    .meals-showcase li {
+        width: 50%;
+    }
+
+    .meal-photo img {
+        transform: scale(1.05);
+    }
+
+
+    /* How it works */
+
+    .steps-box:first-child {
+        width: 100%;
+        margin-left: 0;
+        padding-right: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .steps-box:last-child {
+        width: 100%;
+        padding-left: 0;
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .app-screen {
+        width: 220px;
+    }
+
+    .works-step {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .works-step div {
+        width: 45px;
+        height: 45px;
+        font-size: 120%;
+    }
+
+    .btn-app img {
+        height: 45px;
+        margin-right: 5px;
+    }
+
+
+    /* Cities */
+
+    .col-span-1-of-2 {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+
+    /* Testimonials */
+
+    .col-span-1-of-3 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    blockquote {
+        margin-top: 20px;
+        padding: 5%;
+    }
+
+
+    /* Plans */
+
+    .col-span-1-of-3 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .plan-box {
+        width: 100%;
+    }
+
+    .plan-price {
+        font-size: 230%;
+    }
+
+
+    /* Contact form */
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .span-1-of-3,
+    .span-2-of-3 {
+        width: 100%;
+    }
+
+    .section-form .row {
+        margin-bottom: 10px;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 35px 15px;
+    }
+
+    .footer-nav,
+    .social-links {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav li,
+    .social-links li {
+        margin-right: 8px;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        line-height: 150%;
+    }
+
+}
